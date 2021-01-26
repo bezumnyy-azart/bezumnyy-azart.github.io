@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #6e010a;
+}
+h1 { 
+	text-align: center;
+	color:
+	font-weight: 700;
+	font-family: 'Balsamiq Sans', cursive;
+}
+p {
+	color: #000000;
+	font-family: URW Chancery L, cursive;
+	font-size: 30px;
+	margin: 10px 0px;
+	font-weight: 500
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.content {
+	background-color: #520107;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.row {
+	display: flex;
+}
+.box {
+	width: 100px;
+	flex-grow: 1;
+	padding: 10px;
+	margin: 10px;
+	background-color: #383333;
+}
+.col-1 {
+	flex-grow: 1;
+}
+.col-2 {
+	flex-grow: 2;
+}
+.col-3 {
+	flex-grow: 3;
+}
+a {
+  color: #000000;
+  background-size: 200px;
+}
+header .box a {
+	font-size: 20px;
+	text-align: center;
+	padding: center;
+	font-family: URW Chancery L, cursive;
+	border-radius: 10px;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+div {
+	border-radius: 10px; 
+}
+footer	{
+	font-size: 20px;
+	text-align: center;
+	padding: center;
+	font-family: URW Chancery L, cursive;
+	border-radius: 10px;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+iframe	{
+	width: 1000px;
+	height: 350px;
+	max-width: 100%;
+}
